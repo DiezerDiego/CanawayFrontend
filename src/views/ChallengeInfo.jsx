@@ -10,7 +10,7 @@ export const ChallengeInfo = () => {
             <h3 className="text-2xl font-bold text-center xs:text-3xl lg:text-4xl">
               Postulant
             </h3>
-            <div className="relative  flex flex-col-reverse sm:items-end bg-slate-50 rounded-lg p-6 sm:w-[30rem] sm:p-0 sm:mx-auto dark:bg-slate-800 dark:highlight-white/5 mt-4">
+            <div className="relative  flex flex-col-reverse sm:items-end bg-slate-50 rounded-lg p-6 sm:w-[30rem] sm:p-0 sm:mx-auto mt-4">
               <blockquote className="mt-6 text-slate-700 dark:text-slate-300 xs:hidden">
                 <p className="text-justify">I am a responsible and above all honest person, I love programming because it allows me to enhance my creativity.</p>
               </blockquote>
@@ -23,7 +23,7 @@ export const ChallengeInfo = () => {
                   decoding="async"
                 />
                 <div className="flex-auto">
-                  <div className="text-base text-slate-900 font-semibold dark:text-slate-300">
+                  <div className="text-base text-slate-900 font-semibold ">
 
                     <a
                       href="https://www.linkedin.com/in/diegoacm/"
@@ -35,7 +35,7 @@ export const ChallengeInfo = () => {
                     </a>
                   </div>
                   <div className="mt-0.5 ml-7">Develop FullStack</div>
-                  <blockquote className="mt-6 sm:mt-0 text-slate-700 dark:text-slate-300 hidden xs:block">
+                  <blockquote className="mt-6 sm:mt-0 text-slate-700 hidden xs:block">
                 <p className="text-justify sm:px-6">I am a responsible and above all honest person, I love programming because it allows me to enhance my creativity.</p>
               </blockquote>
                 </div>
