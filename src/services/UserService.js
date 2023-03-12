@@ -3,13 +3,17 @@ export default {
   async sendForm(data) {
     
     const fetchR = await fetch(apihost,{
+      
       method:"POST",
+      mode:"cors",
       headers: {
+        
         "Content-Type": "application/json",
         "Authorization": "Bearer "+token,
         
       },
-      body:JSON.stringify(data)
+      body:JSON.stringify(data),
+
     });
     
     const response=await fetchR.json();
